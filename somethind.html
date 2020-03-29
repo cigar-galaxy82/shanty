@@ -51,17 +51,39 @@
 
             <button class="accordion">PUBLIC OR POOL</button>
             <div class="panel"><br><br>
+                  <form class="info">
+        <div id="one" class="input">
+            <label for="">Km-Travelled</label>
+            <input name="km" type="number" id="first" required><br><br>
+        </div>
+        <div id="two" class="input">
+            <label for="">type of Vehicle</label>
+            <!--<input name="type" type="text" id="second" required><br><br>-->
+            <select  id="second" name="type" required>
                 <form>
-                    <label for="typeveh">Type of vehicle</label><br>
-                    <input type="text" name="typeveh" value="" placeholder="eg. bus or train"><br><br>
-                    <label for="Km-travelled2">Km-travelled</label><br>
-                    <input type="number" name="" value=""><br><br>
-                    <label for="">approx. no of people</label><br>
-                    <input type="text" name="" value=""><br><br>
-                    <label for="milage">fuel-type</label><br>
-                    <input type="text" name="" value=""><br><br><br>
-                    <input type="submit"><br><br><br>
+                <option>KTM Suzuki</option>
+                <option>Yamaha Bajaj</option>
+                <option>Mahindra Vespa</option>
+                <option>zuki Hayabusa</option>
+                <option>MV Agusta</option>
+                <option>Super Blackbird</option>
+                <option>Agusta</option>
+                <option>Royal Enfield Classic</option>
+                <option>Honda Activa</option>
+                <option>Bajaj Pulsar</option>
+                <option>Ducati</option>  
                 </form>
+            </select>
+        </div>
+        <div id="four" class="input">
+            <label for="">Type of fuel</label>
+            <input name="fuel" type="text" id="fourth" required><br><br>
+        </div>
+        <div id="three">
+            <button id="third">Enter</button>
+        </div>
+        <br><br><br>
+    </form>
             </div>
             <hr id="divider"><br>
             <button id="third" type="button" name="button">submit</button><br><br>
